@@ -921,8 +921,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1613,8 +1613,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3686,6 +3686,58 @@ MonoBehaviour:
   dialogueStrings:
   - text: Hello, Guest! Welcome! Welcome!
     isEnd: 0
+    isQuestion: 1
+    answerOption1: Hello!
+    answerOption2: How did you fit in there....?
+    option1IndexJump: 1
+    option2IndexJump: 2
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: Hope you enjoy yourself!
+    isEnd: 1
+    isQuestion: 0
+    answerOption1: 
+    answerOption2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: ...Get out of my face!
+    isEnd: 0
+    isQuestion: 1
+    answerOption1: Sorry! jeez...
+    answerOption2: '!!!!'
+    option1IndexJump: 3
+    option2IndexJump: 4
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: Better be!
+    isEnd: 1
+    isQuestion: 0
+    answerOption1: 
+    answerOption2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: '>:('
+    isEnd: 1
     isQuestion: 0
     answerOption1: 
     answerOption2: 
